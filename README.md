@@ -74,6 +74,7 @@ To add new identities, place their images in `files/dataset/{person_name}` and r
 - Adjust similarity threshold in `recognize_face()` if needed.
 - The system supports CUDA acceleration if available.
 - this implementation is not very fast and take its time to run and i will try to make it faster and real time
+- it is not very accurate and make some mistake as it is clear in video at top of readme file so i can make it better for sure
 
 ## License
 This project is for educational purposes only. Use at your own discretion.
