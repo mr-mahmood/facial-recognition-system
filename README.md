@@ -51,13 +51,13 @@ python extract_embeddings.py
 ### 2. Real-time Face Recognition
 Run the following command to start real-time face recognition using a webcam:
 ```bash
-python webcam_recognition.py
+python webcam_result.py
 ```
 
 ### 3. Process Video for Face Recognition
 To process a video file and annotate recognized faces:
 ```bash
-python video_recognition.py
+python video_result.py
 ```
 
 ## How It Works
