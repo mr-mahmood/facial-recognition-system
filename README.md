@@ -1,6 +1,6 @@
 # Face Recognition System
 
-![video]('./files/output.gif')
+![video](./files/output.gif)
 
 ## Overview
 
@@ -73,6 +73,7 @@ To add new identities, place their images in `files/dataset/{person_name}` and r
 - Ensure `face_detector.pt` is placed in `./files/`.
 - Adjust similarity threshold in `recognize_face()` if needed.
 - The system supports CUDA acceleration if available.
+- this implementation is not very fast and take its time to run and i will try to make it faster and real time
 
 ## License
 This project is for educational purposes only. Use at your own discretion.
