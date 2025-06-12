@@ -16,7 +16,7 @@ INDEX_PATH = "./files/faiss/face_index.faiss"
 LABELS_PATH = "./files/faiss/labels.pkl"
 DETECTION_MODEL_PATH = "./files/face_detector.pt"  # Trained YOLO model path
 EMBEDDING_DIM = 128  # DeepFace Facenet model produces 128-dim embeddings
-SIMILARITY_THRESHOLD = 0.6
+SIMILARITY_THRESHOLD = 0.8
 # ================
 
 os.makedirs(os.path.dirname(INDEX_PATH), exist_ok=True)
